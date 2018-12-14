@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/resources/graphiql.html,/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/graphiql.html)[0m
+[0m[[0mdebug[0m] [0m	(/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/resources/application.conf,/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/resources/sangria.schema.graphql,/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/sangria.schema.graphql)[0m
+[0m[[0mdebug[0m] [0m	(/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/resources/sample_queries.graphql,/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/sample_queries.graphql)[0m
