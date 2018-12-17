@@ -38,6 +38,20 @@ object SchemaDef {
       DocumentField("knownForTitles", "(array of tconsts) – titles the person is known for")
     )
 
+  implicit val MovieBasicsType: ObjectType[Unit, MovieBasics] =
+    deriveObjectType[Unit, MovieBasics](
+      ObjectTypeDescription("Information for MovieBasics"),
+      DocumentField("tconst", ""),
+      DocumentField("titleType", ""),
+      DocumentField("primaryTitle", ""),
+      DocumentField("originalTitle", ""),
+      DocumentField("isAdult", ""),
+      DocumentField("startYear", ""),
+      DocumentField("endYear", ""),
+      DocumentField("runtimeMinutes", ""),
+      DocumentField("genres", "")
+    )
+
   /**
     * Category
     */
@@ -66,6 +80,13 @@ object SchemaDef {
         description = Some("Returns a list of name basics"),
         //arguments = Argument("ids", ListInputType(IntType)) :: Nil,
         resolve = c => c.ctx.nameBasics
+      ),
+
+      // For all NameBasics
+      Field("movieBasics", ListType(MovieBasicsType),
+        description = Some("Returns a list of movie basics"),
+        //arguments = Argument("ids", ListInputType(IntType)) :: Nil,
+        resolve = c => c.ctx.movieBasics
       )
     )
   )

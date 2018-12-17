@@ -21,7 +21,7 @@ name hashing:
 1 items
 0 -> true
 products:
-28 items
+31 items
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$$anonfun$1.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$$anonfun$executeGraphQLQuery$2.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$.class
@@ -30,6 +30,8 @@ products:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Category$.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Category.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Identifiable.class
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$MovieBasics$.class
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$MovieBasics.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$NameBasics$.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$NameBasics.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Picture$.class
@@ -46,6 +48,7 @@ products:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Server.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$CategoryTable.class
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$MovieBasicsTable.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$NameBasicsTable.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$ProductTable.class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$TaxonomyTable.class
@@ -103,7 +106,7 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-28 items
+31 items
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> GraphQLServer
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> GraphQLServer$
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> GraphQLServer$$anonfun$1
@@ -113,6 +116,8 @@ class names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$Category
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$Category$
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$Identifiable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$MovieBasics
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$MovieBasics$
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$NameBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$NameBasics$
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models$Picture
@@ -129,11 +134,12 @@ class names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository$
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository$CategoryTable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository$MovieBasicsTable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository$NameBasicsTable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository$ProductTable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository$TaxonomyTable
 used names:
-833 items
+948 items
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> $conforms
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> ->
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> <:<
@@ -300,7 +306,8 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AbstractFunction2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AbstractFunction3
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AbstractFunction4
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AbstractFunction6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AbstractFunction7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AbstractFunction9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Any
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> AnyRef
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> BigDecimal
@@ -311,7 +318,9 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> IndexOutOfBoundsException
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Int
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Iterator
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Long
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Models
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> MovieBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> NameBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> None
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Nothing
@@ -335,11 +344,15 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> T4
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> T5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> T6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> T7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> T8
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> T9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Taxonomy
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Tuple2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Tuple3
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Tuple4
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Tuple6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Tuple7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> Tuple9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> _hashCode
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> _root_
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> _toString
@@ -349,24 +362,34 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> categoryId
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> deathYear
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> description
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> endYear
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> eq
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> finalizeHash
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> genres
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> height
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> id
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> isAdult
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> isInstanceOf
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> knownForTitles
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> longHash
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> mix
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> name
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> nconst
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> originalTitle
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> package
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> price
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> primaryName
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> primaryProfession
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> primaryTitle
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> productId
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> runtime
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> runtimeMinutes
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> s
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> scala
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> size
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> startYear
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> tconst
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> titleType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> toString
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> typedProductIterator
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> url
@@ -431,7 +454,12 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> LeafAction
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> List
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> ListType
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> Long
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> LongType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> Models
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> MovieBasics
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> MovieBasicsTable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> MovieBasicsType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> NameBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> NameBasicsTable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> NameBasicsType
@@ -500,9 +528,11 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> derive
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> deriveObjectType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> description
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> endYear
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> fields
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> finder
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> futureAction
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> genres
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> graphqlType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> height
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> id
@@ -510,27 +540,35 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> implicitly
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> inCoercedLookup
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> interfaceType
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> isAdult
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> knownForTitles
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> macros
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> marshalling
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> materializeClassTag
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> movieBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> name
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> nameBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> nconst
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> optionLookup
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> orElse
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> originalTitle
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> outLookup
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> package
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> picture
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> price
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> primaryName
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> primaryProfession
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> primaryTitle
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> product
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> reflect
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> runtimeMinutes
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> sangria
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> scala
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> schema
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> startYear
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> tag
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> tconst
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> titleType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> url
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> validSubclass
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> value
@@ -556,6 +594,15 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$28
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$29
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$30
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$31
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$32
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$33
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$34
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$35
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$36
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$37
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$38
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$39
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$4
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> x$6
@@ -723,8 +770,10 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Server.scala -> x$9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Server.scala -> ~
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> $conforms
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> +
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ++
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ++=
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> :+
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> <:<
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> <>
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> <init>
@@ -736,8 +785,11 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> AbstractTable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Any
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> AnyRef
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Array
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ArrayOps
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Await
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Awaitable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> B
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> B1
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> B2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> BR
@@ -748,8 +800,10 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> BigDecimalJdbcType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Boolean
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> BooleanColumnCanBeQueryCondition
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> BufferedSource
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> C
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> CanBeQueryCondition
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> CanBuildFrom
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Categories
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Category
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> CategoryId
@@ -757,9 +811,12 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Class
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ClassLoader
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ClassTag
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Codec
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Coll
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ColumnOption
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ColumnOptions
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Config
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Console
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> DBIO
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> DBIOAction
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> DDL
@@ -779,7 +836,8 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Function1
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Function2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Function4
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Function6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Function7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Function9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Future
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> H2Profile
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Index
@@ -787,17 +845,26 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Int
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> IntJdbcType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Iterable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Iterator
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> JdbcTypes
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Level
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> LiteralColumn
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Long
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> LongJdbcType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M1
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M3
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M4
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M8
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> M9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> MappedProjection
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Models
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> MovieBasics
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> MovieBasicsTable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> MovieBasicsTables
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> NameBasics
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> NameBasicsTable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> NameBasicsTables
@@ -814,6 +881,9 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> P4
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> P5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> P6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> P7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> P8
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> P9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> PU
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Predef
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> PrimaryKey
@@ -836,6 +906,7 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShapeLevel
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShapedValue
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ShopRepository
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Source
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> SqlAction
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> StreamingProfileAction
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> StreamingQueryActionExtensionMethods
@@ -848,6 +919,9 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> T4
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> T5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> T6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> T7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> T8
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> T9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> TT
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Table
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> TableElementType
@@ -857,10 +931,12 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Taxonometry
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Taxonomy
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> TaxonomyTable
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> That
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Traversable
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Tuple2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Tuple4
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Tuple6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Tuple7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Tuple9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> TypedType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U1
@@ -869,6 +945,9 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U4
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U6
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U7
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U8
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> U9
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Unit
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> Write
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$1
@@ -876,16 +955,27 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$11
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$12
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$13
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$16
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$17
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$18
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$19
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$2
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$20
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$21
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$22
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$23
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$24
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$25
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$26
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$27
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$28
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$3
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$30
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$37
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$38
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$39
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$4
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$40
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$41
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$42
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$43
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$44
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$45
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$5
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$53
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> _$54
@@ -898,20 +988,32 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> apply
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> bigDecimalColumnType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> birthYear
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> bufferedSource
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> canBuildFrom
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> categoryId
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> close
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> collection
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> cols
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> column
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> columnExtensionMethods
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> concurrent
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> counter
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> create
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> databaseSetup
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> db
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> deathYear
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> description
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> duration
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> endYear
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> fallbackSystemCodec
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> filePath
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> filter
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> forConfig
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> foreach
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> foreignKey
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> fromFile
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> genres
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> getLines
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> getOptionMapper2TT
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> headOption
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> id
@@ -919,40 +1021,59 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> inSet
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> index
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> intColumnType
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> io
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> isAdult
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> jdbc
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> knownForTitles
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> language
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> lifted
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> line
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> longColumnType
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> map
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> mappedProjectionShape
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> materializeClassTag
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> name
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> nconst
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> ofRef
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> originalTitle
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> package
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> postfixOps
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> price
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> primaryName
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> primaryProfession
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> primaryTitle
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> println
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> productId
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> proveShapeOf
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> queryInsertActionExtensionMethods
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> readNameBasicsFile
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> refArrayOps
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> reflect
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> repColumnShape
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> result
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> run
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> runtimeMinutes
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> scala
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> schema
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> schemaActionExtensionMethods
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> seconds
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> seq
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> slick
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> split
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> startYear
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> streamableQueryActionExtensionMethods
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> stringColumnType
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tableQueryToTableQueryExtensionMethods
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tableShape
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tag
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tconst
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> titleType
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> titles
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> trim
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tuple2Shape
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tuple4Shape
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tuple6Shape
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tuple7Shape
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tuple9Shape
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> tupled
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> valueToConstColumn
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$10
@@ -964,46 +1085,49 @@ used names:
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$16
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$17
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$18
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$7
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$8
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$19
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$20
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> x$9
 product stamps:
-28 items
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$$anonfun$1.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$$anonfun$executeGraphQLQuery$2.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Category$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Category.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Identifiable.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$NameBasics$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$NameBasics.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Picture$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Picture.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Product$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Product.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Taxonomy$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Taxonomy.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/SchemaDef$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/SchemaDef.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server$delayedInit$body.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$CategoryTable.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$NameBasicsTable.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$ProductTable.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$TaxonomyTable.class -> lastModified(1544809800000)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository.class -> lastModified(1544809800000)
+31 items
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$$anonfun$1.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$$anonfun$executeGraphQLQuery$2.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer$.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/GraphQLServer.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Category$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Category.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Identifiable.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$MovieBasics$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$MovieBasics.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$NameBasics$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$NameBasics.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Picture$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Picture.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Product$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Product.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Taxonomy$.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models$Taxonomy.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Models.class -> lastModified(1544923327000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/SchemaDef$.class -> lastModified(1544923328000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/SchemaDef.class -> lastModified(1544923328000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server$.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server$delayedInit$body.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/Server.class -> lastModified(1544831155000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$.class -> lastModified(1544923806000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$CategoryTable.class -> lastModified(1544923806000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$MovieBasicsTable.class -> lastModified(1544923806000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$NameBasicsTable.class -> lastModified(1544923806000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$ProductTable.class -> lastModified(1544923806000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository$TaxonomyTable.class -> lastModified(1544923806000)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/target/scala-2.12/classes/ShopRepository.class -> lastModified(1544923806000)
 source stamps:
 5 items
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> hash(7de6e0462c3f68cd0438a2dde08a2554e2afe8f0)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> hash(1e088e092f8176419f86857b75768208443f732d)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> hash(51aa6dbec46589021858aa4ac15e5b10ff891215)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> hash(35e1057cf74d245a6756482b10dda71900630e12)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> hash(81a302dca041dd7f85e4707eaeda83957efe8f8d)
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Server.scala -> hash(eda9fa49e82e9cdb9491c6c4385ebea84e18a3ea)
-/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> hash(65524a54c84f36e964331eea2f3d823611eefcd1)
+/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> hash(7da4f22c977fe38e5f37e828f84427b4ac8c282c)
 binary stamps:
 13 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1475301657000)
@@ -1022,30 +1146,30 @@ binary stamps:
 class names:
 13 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
-/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.18.jar -> akka.NotUsed
-/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.7.jar -> akka.http.scaladsl.Http$
+/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.18.jar -> akka.actor.ActorSystem
+/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.7.jar -> akka.http.scaladsl.settings.SettingsCompanion
 /Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/jars/akka-http-spray-json_2.12-10.0.7.jar -> akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar -> akka.http.scaladsl.server.directives.ContentTypeResolver$
-/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.4.18.jar -> akka.stream.Materializer
+/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar -> akka.http.scaladsl.server.RoutingLog
+/Users/kansukeikehara/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.4.18.jar -> akka.stream.scaladsl.Flow
 /Users/kansukeikehara/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar -> slick.relational.RelationalTableComponent
 /Users/kansukeikehara/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar -> com.typesafe.config.Config
 /Users/kansukeikehara/.ivy2/cache/io.spray/spray-json_2.12/bundles/spray-json_2.12-1.3.3.jar -> spray.json.JsValue
-/Users/kansukeikehara/.ivy2/cache/org.sangria-graphql/sangria-marshalling-api_2.12/jars/sangria-marshalling-api_2.12-1.0.0.jar -> sangria.util.tag$
+/Users/kansukeikehara/.ivy2/cache/org.sangria-graphql/sangria-marshalling-api_2.12/jars/sangria-marshalling-api_2.12-1.0.0.jar -> sangria.marshalling.FromInput
 /Users/kansukeikehara/.ivy2/cache/org.sangria-graphql/sangria-spray-json_2.12/jars/sangria-spray-json_2.12-1.0.0.jar -> sangria.marshalling.sprayJson$
-/Users/kansukeikehara/.ivy2/cache/org.sangria-graphql/sangria_2.12/jars/sangria_2.12-1.2.2.jar -> sangria.schema.Schema$
-/Users/kansukeikehara/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.Tuple6$
+/Users/kansukeikehara/.ivy2/cache/org.sangria-graphql/sangria_2.12/jars/sangria_2.12-1.2.2.jar -> sangria.macros.derive.IncludeMethods
+/Users/kansukeikehara/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.Tuple7
 internal apis:
 5 items
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/GraphQLServer.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwG019rgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwABoXjnQABm5vdGlmeXNxAH4ADO3RT8B0AAR3YWl0c3EAfgAMtPRVzHQACnJlcG9zaXRvcnlzcQB+AAyaEqv7dAANJGFzSW5zdGFuY2VPZnNxAH4ADNG8/Wd0AAZlcXVhbHNzcQB+AAy/JnTLdAAMYXNJbnN0YW5jZU9mc3EAfgAMcnBciXQADHN5bmNocm9uaXplZHNxAH4ADNwwl2R0AA0kaXNJbnN0YW5jZU9mc3EAfgAMbiJSH3QACW5vdGlmeUFsbHNxAH4ADE1aJDt0AAxpc0luc3RhbmNlT2ZzcQB+AAwd7h8idAANR3JhcGhRTFNlcnZlcnNxAH4ADLi9H+J0AAI9PXNxAH4ADKe4SRN0AAVjbG9uZXNxAH4ADJnFnTV0AAhlbmRwb2ludHNxAH4ADL56HN10AAh0b1N0cmluZ3NxAH4ADPkNBb10AAIhPXNxAH4ADIrtSst0AAhnZXRDbGFzc3NxAH4ADAXlM9t0AAJuZXNxAH4ADOrJ2rN0AAJlcXNxAH4ADJRWSRJ0AAIjI3NxAH4ADCKeAjF0AAhmaW5hbGl6ZXNxAH4ADCOaFSR0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AI3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AF9zcQB+AFp1cQB+AD4AAAAAc3EAfgBadXEAfgA+AAAAAHNxAH4AWnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ad3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHNxAH4Aa3QAA0FueXNxAH4Ab3NxAH4AcnVxAH4AdQAAAAJzcQB+AHd0AAVzY2FsYXEAfgB+dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWet1sGSdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFH3m4EYsP2jNBDii3eCKJVTir+jw
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwG019rgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwABoXjnQABm5vdGlmeXNxAH4ADO3RT8B0AAR3YWl0c3EAfgAMtPRVzHQACnJlcG9zaXRvcnlzcQB+AAyaEqv7dAANJGFzSW5zdGFuY2VPZnNxAH4ADNG8/Wd0AAZlcXVhbHNzcQB+AAy/JnTLdAAMYXNJbnN0YW5jZU9mc3EAfgAMcnBciXQADHN5bmNocm9uaXplZHNxAH4ADNwwl2R0AA0kaXNJbnN0YW5jZU9mc3EAfgAMbiJSH3QACW5vdGlmeUFsbHNxAH4ADE1aJDt0AAxpc0luc3RhbmNlT2ZzcQB+AAwd7h8idAANR3JhcGhRTFNlcnZlcnNxAH4ADLi9H+J0AAI9PXNxAH4ADKe4SRN0AAVjbG9uZXNxAH4ADJnFnTV0AAhlbmRwb2ludHNxAH4ADL56HN10AAh0b1N0cmluZ3NxAH4ADPkNBb10AAIhPXNxAH4ADIrtSst0AAhnZXRDbGFzc3NxAH4ADAXlM9t0AAJuZXNxAH4ADOrJ2rN0AAJlcXNxAH4ADJRWSRJ0AAIjI3NxAH4ADCKeAjF0AAhmaW5hbGl6ZXNxAH4ADCOaFSR0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AI3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AF9zcQB+AFp1cQB+AD4AAAAAc3EAfgBadXEAfgA+AAAAAHNxAH4AWnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ad3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHNxAH4Aa3QAA0FueXNxAH4Ab3NxAH4AcnVxAH4AdQAAAAJzcQB+AHd0AAVzY2FsYXEAfgB+dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWevHJnOdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFH3m4EYsP2jNBDii3eCKJVTir+jw
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Models.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwhQiJ3gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA+c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwEW+XQ3QABm5vdGlmeXNxAH4ADPSiFN90AAd1bmFwcGx5c3EAfgAMET509HQAB2N1cnJpZWRzcQB+AAymQ2uLdAAEbmFtZXNxAH4ADBDO/pp0AAtwcmltYXJ5TmFtZXNxAH4ADPdDicF0AApjYXRlZ29yeUlkc3EAfgAMYMCmQHQABHdhaXRzcQB+AAxuKbVIdAAOY29weSRkZWZhdWx0JDJzcQB+AAyX/tzYdAANJGFzSW5zdGFuY2VPZnNxAH4ADFe2uoV0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADPwT4cR0AAlQcm9kdWN0SWRzcQB+AAwdPEFwdAAIQ2F0ZWdvcnlzcQB+AAyKakybdAAOa25vd25Gb3JUaXRsZXNzcQB+AAxocUi2dAAMcHJvZHVjdEFyaXR5c3EAfgAMi3sX13QAA3VybHNxAH4ADIcZKoh0AAZlcXVhbHNzcQB+AAz7sMf8dAAKQ2F0ZWdvcnlJZHNxAH4ADKmWJ9x0AAtkZXNjcmlwdGlvbnNxAH4ADMU6t2N0AAxhc0luc3RhbmNlT2ZzcQB+AAzIz0h9dAAFcHJpY2VzcQB+AAx4t16BdAAMc3luY2hyb25pemVkc3EAfgAMvZtnTnQADSRpc0luc3RhbmNlT2ZzcQB+AAybYaZMdAAGaGVpZ2h0c3EAfgAM59v+1XQABnR1cGxlZHNxAH4ADKjqEwt0AAliaXJ0aFllYXJzcQB+AAw4Y6L/dAAGbmNvbnN0c3EAfgAM4Lh7sXQACGNhbkVxdWFsc3EAfgAMK6c6snQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMfcfYF3QADXByb2R1Y3RQcmVmaXhzcQB+AAwBSqi1dAAIVGF4b25vbXlzcQB+AAwDT4YhdAAJbm90aWZ5QWxsc3EAfgAMo0b9qHQADGlzSW5zdGFuY2VPZnNxAH4ADH3EFAt0AAlkZWF0aFllYXJzcQB+AAzHIzJLdAAGPGluaXQ+c3EAfgAMdrGsrXQAAmlkc3EAfgAM2+3pjHQABWFwcGx5c3EAfgAMwmOZDnQAAj09c3EAfgAMqwmEdHQABWNsb25lc3EAfgAMZd+uq3QABiRpbml0JHNxAH4ADKqiLp50AApOYW1lQmFzaWNzc3EAfgAM3rmC3XQADmNvcHkkZGVmYXVsdCQzc3EAfgAMkIJFVHQABk1vZGVsc3NxAH4ADLSNOEd0AARjb3B5c3EAfgAMXIxPLHQAB3BpY3R1cmVzcQB+AAyI4uFPdAAIdG9TdHJpbmdzcQB+AAyW6JSCdAAJcHJvZHVjdElkc3EAfgAM6tEbV3QAAiE9c3EAfgAMkaL9e3QACGdldENsYXNzc3EAfgAMr1LetnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMwGMqynQAB1Byb2R1Y3RzcQB+AAytKhBidAAMSWRlbnRpZmlhYmxlc3EAfgAMka6/X3QADmNvcHkkZGVmYXVsdCQ2c3EAfgAM5mCkG3QAAm5lc3EAfgAMXR2/hHQABXdpZHRoc3EAfgAMakJjdXQAAmVxc3EAfgAMjIlr/nQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADKUQXqJ0AAdQaWN0dXJlc3EAfgAMyXHR0HQAEXByaW1hcnlQcm9mZXNzaW9uc3EAfgAMsk8rCnQAAiMjc3EAfgAM3hmEVXQACGZpbmFsaXplc3EAfgAM+ZxVoHQADnByb2R1Y3RFbGVtZW50c3EAfgAMQ78EsXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ak3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBhdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCqc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJNMAAlpbmhlcml0ZWRxAH4Ak0wAB3BhcmVudHNxAH4Ak3hxAH4Ar3NxAH4AqnVxAH4AjgAAAABzcQB+AKp1cQB+AI4AAAAAc3EAfgCqdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCudAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCuc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDHdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDIc3EAfgC7dAADQW55c3EAfgC/c3EAfgDCdXEAfgDFAAAAAnNxAH4Ax3QABXNjYWxhcQB+AM51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ63WwZJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABaL1VzZXJzL2thbnN1a2Vpa2VoYXJhL0RvY3VtZW50cy9jb2RlL0dpdC9wbGF5LXdpdGgtc2NhbGEtZ3JhcGhxbC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUHgiOCS+BdkGfhoV7dXaCCEQ/cy0=
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw8teqBwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAABLc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwbBmf8nQADnJ1bnRpbWVNaW51dGVzc3EAfgAMbHIsknQABm5vdGlmeXNxAH4ADCcBHtV0AAd1bmFwcGx5c3EAfgAM8KbHVXQAC01vdmllQmFzaWNzc3EAfgAM7EaA/XQAB2N1cnJpZWRzcQB+AAymQ2uLdAAEbmFtZXNxAH4ADBDO/pp0AAtwcmltYXJ5TmFtZXNxAH4ADPdDicF0AApjYXRlZ29yeUlkc3EAfgAMhH7xw3QABHdhaXRzcQB+AAwGZ4+VdAAOY29weSRkZWZhdWx0JDJzcQB+AAxujTf0dAANJGFzSW5zdGFuY2VPZnNxAH4ADP/KhC10AA5jb3B5JGRlZmF1bHQkNXNxAH4ADHMbENR0AAZ0Y29uc3RzcQB+AAz8E+HEdAAJUHJvZHVjdElkc3EAfgAMHTxBcHQACENhdGVnb3J5c3EAfgAMimpMm3QADmtub3duRm9yVGl0bGVzc3EAfgAMl29Q6nQADHByb2R1Y3RBcml0eXNxAH4ADIt7F9d0AAN1cmxzcQB+AAznyZP8dAAGZXF1YWxzc3EAfgAMGFPxF3QADmNvcHkkZGVmYXVsdCQ5c3EAfgAM+7DH/HQACkNhdGVnb3J5SWRzcQB+AAyplifcdAALZGVzY3JpcHRpb25zcQB+AAwnTCeLdAAMYXNJbnN0YW5jZU9mc3EAfgAMyM9IfXQABXByaWNlc3EAfgAMKx2+oHQADHN5bmNocm9uaXplZHNxAH4ADABzUD90AAl0aXRsZVR5cGVzcQB+AAyqq+xldAANJGlzSW5zdGFuY2VPZnNxAH4ADBt1Wa90AA1vcmlnaW5hbFRpdGxlc3EAfgAMm2GmTHQABmhlaWdodHNxAH4ADFH7ryh0AA5jb3B5JGRlZmF1bHQkOHNxAH4ADAG9i9d0AAZ0dXBsZWRzcQB+AAyo6hMLdAAJYmlydGhZZWFyc3EAfgAMOGOi/3QABm5jb25zdHNxAH4ADIQ8JaB0AAhjYW5FcXVhbHNxAH4ADBw7am90AA5jb3B5JGRlZmF1bHQkNHNxAH4ADC37B0N0AA1wcm9kdWN0UHJlZml4c3EAfgAMAUqotXQACFRheG9ub215c3EAfgAM5ucdCnQACW5vdGlmeUFsbHNxAH4ADN+Vez90AAlzdGFydFllYXJzcQB+AAy+lmQbdAAMaXNJbnN0YW5jZU9mc3EAfgAMlgOOnXQAB2VuZFllYXJzcQB+AAx9xBQLdAAJZGVhdGhZZWFyc3EAfgAM7cXn/3QABjxpbml0PnNxAH4ADKFUojF0AAJpZHNxAH4ADGlgkAJ0AAVhcHBseXNxAH4ADFx4/090AAI9PXNxAH4ADC1IFLF0AAxwcmltYXJ5VGl0bGVzcQB+AAxQF21JdAAFY2xvbmVzcQB+AAyYdimNdAAHaXNBZHVsdHNxAH4ADNY7ATB0AA5jb3B5JGRlZmF1bHQkN3NxAH4ADM08RhF0AAYkaW5pdCRzcQB+AAxDV0EsdAAGZ2VucmVzc3EAfgAM185s33QACk5hbWVCYXNpY3NzcQB+AAwRWLEkdAAOY29weSRkZWZhdWx0JDNzcQB+AAyQgkVUdAAGTW9kZWxzc3EAfgAM1TaYvXQABGNvcHlzcQB+AAxcjE8sdAAHcGljdHVyZXNxAH4ADLW+Wap0AAh0b1N0cmluZ3NxAH4ADJbolIJ0AAlwcm9kdWN0SWRzcQB+AAx2o3xfdAACIT1zcQB+AAzta8JVdAAIZ2V0Q2xhc3NzcQB+AAznT7xWdAAOY29weSRkZWZhdWx0JDFzcQB+AAzAYyrKdAAHUHJvZHVjdHNxAH4ADK0qEGJ0AAxJZGVudGlmaWFibGVzcQB+AAx5bd66dAAOY29weSRkZWZhdWx0JDZzcQB+AAzuEzObdAACbmVzcQB+AAxdHb+EdAAFd2lkdGhzcQB+AAzeFA70dAACZXFzcQB+AAxDtDA6dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMpRBeonQAB1BpY3R1cmVzcQB+AAzJcdHQdAARcHJpbWFyeVByb2Zlc3Npb25zcQB+AAwtML63dAACIyNzcQB+AAy8BLwZdAAIZmluYWxpemVzcQB+AAz7ZuxvdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAza288+dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCteHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AHt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AMRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ArUwACWluaGVyaXRlZHEAfgCtTAAHcGFyZW50c3EAfgCteHEAfgDJc3EAfgDEdXEAfgCoAAAAAHNxAH4AxHVxAH4AqAAAAABzcQB+AMR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AMh0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AMhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AOF0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AOJzcQB+ANV0AANBbnlzcQB+ANlzcQB+ANx1cQB+AN8AAAACc3EAfgDhdAAFc2NhbGFxAH4A6HVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFntJsNsnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFovVXNlcnMva2Fuc3VrZWlrZWhhcmEvRG9jdW1lbnRzL2NvZGUvR2l0L3BsYXktd2l0aC1zY2FsYS1ncmFwaHFsL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ14QV8900kWmdWSCsQ3acZAGMOEg==
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/SchemaDef.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwRJhgdwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAARzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBRyvdRdAALUGljdHVyZVR5cGVzcQB+AAs8F59mdAALUHJvZHVjdFR5cGVzcQB+AAuK6Wp2dAAOTmFtZUJhc2ljc1R5cGVzcQB+AAvNITWgdAAMQ2F0ZWdvcnlUeXBldXEAfgAJAAAAF3NxAH4AC8uXrJh0AAZub3RpZnlzcQB+AAsIaPd3dAAJU2NoZW1hRGVmc3EAfgAL73bUpHQABHdhaXRzcQB+AAuMauaBdAANJGFzSW5zdGFuY2VPZnNxAH4AC4974yd0AApTaG9wU2NoZW1hc3EAfgALy1qPS3QABmVxdWFsc3NxAH4AC8l0Jsh0AAxhc0luc3RhbmNlT2ZzcQB+AAuon1f3dAAMc3luY2hyb25pemVkc3EAfgALrKpwBHQADSRpc0luc3RhbmNlT2ZzcQB+AAupTD/zdAAJUXVlcnlUeXBlc3EAfgAL6InIsnQAEElkZW50aWZpYWJsZVR5cGVzcQB+AAvHInwhdAAJbm90aWZ5QWxsc3EAfgALW8RBkHQADGlzSW5zdGFuY2VPZnNxAH4AC1MPRxd0AAI9PXNxAH4AC09tiMF0AAVjbG9uZXNxAH4AC644dM50AAh0b1N0cmluZ3NxAH4AC+ySIad0AAIhPXNxAH4AC3OhG3p0AAhnZXRDbGFzc3NxAH4AC//Ryr10AAJuZXNxAH4AC5ikbv90AAJlcXNxAH4AC1Tp6lB0AAIjI3NxAH4AC7waEZx0AAhmaW5hbGl6ZXNxAH4ACzaIcc50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AGXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AGlzcQB+AGR1cQB+AEgAAAAAc3EAfgBkdXEAfgBIAAAAAHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnNxAH4AdXQAA0FueXNxAH4AeXNxAH4AfHVxAH4AfwAAAAJzcQB+AIF0AAVzY2FsYXEAfgCIdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWet1sGSdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFGqbb7EZYkCGFiqSsFeWxD/iRIV
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwOLoVQQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAVzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDNITWgdAAMQ2F0ZWdvcnlUeXBlc3EAfgALiulqdnQADk5hbWVCYXNpY3NUeXBlc3EAfgALPBefZnQAC1Byb2R1Y3RUeXBlc3EAfgALSDkxDnQAD01vdmllQmFzaWNzVHlwZXNxAH4AC1HK91F0AAtQaWN0dXJlVHlwZXVxAH4ACQAAABdzcQB+AAvLl6yYdAAGbm90aWZ5c3EAfgALCGj3d3QACVNjaGVtYURlZnNxAH4AC+921KR0AAR3YWl0c3EAfgALjGrmgXQADSRhc0luc3RhbmNlT2ZzcQB+AAuPe+MndAAKU2hvcFNjaGVtYXNxAH4AC8taj0t0AAZlcXVhbHNzcQB+AAvJdCbIdAAMYXNJbnN0YW5jZU9mc3EAfgALqJ9X93QADHN5bmNocm9uaXplZHNxAH4AC6yqcAR0AA0kaXNJbnN0YW5jZU9mc3EAfgALqUw/83QACVF1ZXJ5VHlwZXNxAH4AC+iJyLJ0ABBJZGVudGlmaWFibGVUeXBlc3EAfgALxyJ8IXQACW5vdGlmeUFsbHNxAH4AC1vEQZB0AAxpc0luc3RhbmNlT2ZzcQB+AAtTD0cXdAACPT1zcQB+AAtPbYjBdAAFY2xvbmVzcQB+AAuuOHTOdAAIdG9TdHJpbmdzcQB+AAvskiGndAACIT1zcQB+AAtzoRt6dAAIZ2V0Q2xhc3NzcQB+AAv/0cq9dAACbmVzcQB+AAuYpG7/dAACZXFzcQB+AAtU6epQdAACIyNzcQB+AAu8GhGcdAAIZmluYWxpemVzcQB+AAs2iHHOdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBPeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ABt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBrc3EAfgBmdXEAfgBKAAAAAHNxAH4AZnVxAH4ASgAAAABzcQB+AGZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGp0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIN0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIRzcQB+AHd0AANBbnlzcQB+AHtzcQB+AH51cQB+AIEAAAACc3EAfgCDdAAFc2NhbGFxAH4AinVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFntJsq+3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFovVXNlcnMva2Fuc3VrZWlrZWhhcmEvRG9jdW1lbnRzL2NvZGUvR2l0L3BsYXktd2l0aC1zY2FsYS1ncmFwaHFsL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSBowLcoEHdf4XkcH6u2oOVfv6PjQ==
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/Server.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwCjRWXgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAuoDqKdAALYWN0b3JTeXN0ZW1zcQB+AAunqQzjdAAMbWF0ZXJpYWxpemVydXEAfgAJAAAAHHNxAH4AC7NdQU90AAZub3RpZnlzcQB+AAumgYaxdAAEd2FpdHNxAH4AC/kugyR0AA0kYXNJbnN0YW5jZU9mc3EAfgALXoUoznQABlNlcnZlcnNxAH4AC5ZtjBp0AAZlcXVhbHNzcQB+AAvrAXKLdAAMYXNJbnN0YW5jZU9mc3EAfgALCuvdgHQADmV4ZWN1dGlvblN0YXJ0c3EAfgALx9a8VXQADHN5bmNocm9uaXplZHNxAH4AC7QjRzB0AA0kaXNJbnN0YW5jZU9mc3EAfgALTnR+a3QABG1haW5zcQB+AAv5hFh6dAAJbm90aWZ5QWxsc3EAfgALDvi2zXQADGlzSW5zdGFuY2VPZnNxAH4AC2eJjid0AAhzaHV0ZG93bnNxAH4AC4Yb+Od0AARQT1JUc3EAfgALHeoRn3QAAj09c3EAfgALro9iiXQABWNsb25lc3EAfgALSVnHcnQABiRpbml0JHNxAH4ACwjN0jV0AAh0b1N0cmluZ3NxAH4AC8XiklZ0AARhcmdzc3EAfgALpdXPMXQAAiE9c3EAfgALkq06R3QABXJvdXRlc3EAfgALWl/rfHQACGdldENsYXNzc3EAfgALK4U40HQAAm5lc3EAfgALQbuZAHQAAmVxc3EAfgALZtIRbXQAC2RlbGF5ZWRJbml0c3EAfgAL7r0H9nQAAiMjc3EAfgALSB+SjXQACGZpbmFsaXplc3EAfgALWOYlX3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAZdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBsc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AcXNxAH4AbHVxAH4ATgAAAABzcQB+AGx1cQB+AE4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AFRxAH4AXXVxAH4AXgAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHt4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AcHQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBwc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCVc3EAfgBgAHEAfgAldXEAfgBiAAAAAHNxAH4AiHQABFVuaXRxAH4AjnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AHt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGV0AAVQbGFpbnEAfgA3c3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCJWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBwc3EAfgCIdAAFQXJyYXlxAH4AjnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCIdAAGU3RyaW5nc3EAfgCMc3EAfgCPdXEAfgCSAAAAA3NxAH4AlHQABGphdmFzcQB+AJR0AARsYW5ncQB+AJlzcQB+AGx1cQB+ALAAAAAEc3EAfgCIdAADQXBwcQB+AI5zcQB+AIh0AAtEZWxheWVkSW5pdHEAfgCOc3EAfgCIdAAGT2JqZWN0cQB+ALRzcQB+AIh0AANBbnlxAH4AjnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFnrdbBknVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFovVXNlcnMva2Fuc3VrZWlrZWhhcmEvRG9jdW1lbnRzL2NvZGUvR2l0L3BsYXktd2l0aC1zY2FsYS1ncmFwaHFsL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTtqfpJ6C6c25SRxsQ4Xr6oThij6g==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwCjRWXgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAuoDqKdAALYWN0b3JTeXN0ZW1zcQB+AAunqQzjdAAMbWF0ZXJpYWxpemVydXEAfgAJAAAAHHNxAH4AC7NdQU90AAZub3RpZnlzcQB+AAumgYaxdAAEd2FpdHNxAH4AC/kugyR0AA0kYXNJbnN0YW5jZU9mc3EAfgALXoUoznQABlNlcnZlcnNxAH4AC5ZtjBp0AAZlcXVhbHNzcQB+AAvrAXKLdAAMYXNJbnN0YW5jZU9mc3EAfgALCuvdgHQADmV4ZWN1dGlvblN0YXJ0c3EAfgALx9a8VXQADHN5bmNocm9uaXplZHNxAH4AC7QjRzB0AA0kaXNJbnN0YW5jZU9mc3EAfgALTnR+a3QABG1haW5zcQB+AAv5hFh6dAAJbm90aWZ5QWxsc3EAfgALDvi2zXQADGlzSW5zdGFuY2VPZnNxAH4AC2eJjid0AAhzaHV0ZG93bnNxAH4AC4Yb+Od0AARQT1JUc3EAfgALHeoRn3QAAj09c3EAfgALro9iiXQABWNsb25lc3EAfgALSVnHcnQABiRpbml0JHNxAH4ACwjN0jV0AAh0b1N0cmluZ3NxAH4AC8XiklZ0AARhcmdzc3EAfgALpdXPMXQAAiE9c3EAfgALkq06R3QABXJvdXRlc3EAfgALWl/rfHQACGdldENsYXNzc3EAfgALK4U40HQAAm5lc3EAfgALQbuZAHQAAmVxc3EAfgALZtIRbXQAC2RlbGF5ZWRJbml0c3EAfgAL7r0H9nQAAiMjc3EAfgALSB+SjXQACGZpbmFsaXplc3EAfgALWOYlX3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAZdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBsc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AcXNxAH4AbHVxAH4ATgAAAABzcQB+AGx1cQB+AE4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AFRxAH4AXXVxAH4AXgAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHt4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AcHQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBwc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCVc3EAfgBgAHEAfgAldXEAfgBiAAAAAHNxAH4AiHQABFVuaXRxAH4AjnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AHt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGV0AAVQbGFpbnEAfgA3c3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCJWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBwc3EAfgCIdAAFQXJyYXlxAH4AjnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCIdAAGU3RyaW5nc3EAfgCMc3EAfgCPdXEAfgCSAAAAA3NxAH4AlHQABGphdmFzcQB+AJR0AARsYW5ncQB+AJlzcQB+AGx1cQB+ALAAAAAEc3EAfgCIdAADQXBwcQB+AI5zcQB+AIh0AAtEZWxheWVkSW5pdHEAfgCOc3EAfgCIdAAGT2JqZWN0cQB+ALRzcQB+AIh0AANBbnlxAH4AjnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFnrxyZznVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFovVXNlcnMva2Fuc3VrZWlrZWhhcmEvRG9jdW1lbnRzL2NvZGUvR2l0L3BsYXktd2l0aC1zY2FsYS1ncmFwaHFsL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTtqfpJ6C6c25SRxsQ4Xr6oThij6g==
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwgdouYAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAABMc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwU/vBcXQAD05hbWVCYXNpY3NUYWJsZXNxAH4ADKuN6/50AAZub3RpZnlzcQB+AAxprOOJdAALVGF4b25vbWV0cnlzcQB+AAzyE6nFdAANZGF0YWJhc2VTZXR1cHNxAH4ADHvVEnx0AARuYW1lc3EAfgAMGrCkdnQADWFsbENhdGVnb3JpZXNzcQB+AAxKrBFtdAALcHJpbWFyeU5hbWVzcQB+AAw2Y8i/dAAKY2F0ZWdvcnlJZHNxAH4ADNhIghR0AApuYW1lQmFzaWNzc3EAfgAMjCghJXQABHdhaXRzcQB+AAz0vHtzdAABKnNxAH4ADO0Nc0t0AA0kYXNJbnN0YW5jZU9mc3EAfgAMzMBu43QADmtub3duRm9yVGl0bGVzc3EAfgAMpT99R3QABmVxdWFsc3NxAH4ADBnkEph0ABRmb3JlaWduS2V5JGRlZmF1bHQkNXNxAH4ADHtk3IJ0AAtkZXNjcmlwdGlvbnNxAH4ADDPV8LF0AAdpbmRleGVzc3EAfgAMQBVBeHQADGFzSW5zdGFuY2VPZnNxAH4ADKQpeLV0ABB0YWJsZUNvbnN0cmFpbnRzc3EAfgAMC+CCN3QABXByaWNlc3EAfgAMNSdCNHQACmZvcmVpZ25LZXlzcQB+AAwJFAUodAAMc3luY2hyb25pemVkc3EAfgAMr/9xsnQACkNhdGVnb3JpZXNzcQB+AAxchBjUdAANJGlzSW5zdGFuY2VPZnNxAH4ADH2Hvi10AAllbmNvZGVSZWZzcQB+AAz7xQxXdAALcHJpbWFyeUtleXNzcQB+AAwCCZc5dAAJdGFibGVOb2Rlc3EAfgAMfzr9qHQACWJpcnRoWWVhcnNxAH4ADEpCim90AAZuY29uc3RzcQB+AAylU7K3dAALYWxsUHJvZHVjdHNzcQB+AAzIOCB0dAANQ2F0ZWdvcnlUYWJsZXNxAH4ADAcVl5V0AAhwcm9kdWN0c3NxAH4ADAx2uBR0AA10YWJsZVByb3ZpZGVyc3EAfgAMXnRrE3QAC2ZvcmVpZ25LZXlzc3EAfgAMCm+Pi3QACW5vdGlmeUFsbHNxAH4ADNiqjLh0AApwcmltYXJ5S2V5c3EAfgAMgqRZTHQADmNyZWF0ZURhdGFiYXNlc3EAfgAMg60dj3QADGlzSW5zdGFuY2VPZnNxAH4ADKfSOJV0ABBOYW1lQmFzaWNzVGFibGVzc3EAfgAMmgtIz3QACWRlYXRoWWVhcnNxAH4ADPTJY/10ABRmb3JlaWduS2V5JGRlZmF1bHQkNnNxAH4ADDfzJwB0AAY8aW5pdD5zcQB+AAwJTcqWdAANVGF4b25vbXlUYWJsZXNxAH4ADLeWMjV0AAJpZHNxAH4ADKe+HC90AApzY2hlbWFOYW1lc3EAfgAMJZt/U3QACGNyZWF0ZV8qc3EAfgAM9CUaj3QACXRhYmxlTmFtZXNxAH4ADC+UyZ50AAh0YWJsZVRhZ3NxAH4ADHsB/PF0AAI9PXNxAH4ADN+cDBx0AAVjbG9uZXNxAH4ADEmYCFJ0AAZ0b05vZGVzcQB+AAwYoSWvdAATY29sbGVjdEZpZWxkU3ltYm9sc3NxAH4ADGdaZIR0ABBUYWJsZUVsZW1lbnRUeXBlc3EAfgAMLXcBg3QABiRpbml0JHNxAH4ADP7hsuN0AApjYXRlZ29yaWVzc3EAfgAM6bvPm3QACGNhdGVnb3J5c3EAfgAMN4a463QAA2lkeHNxAH4ADL418l90AAZjb2x1bW5zcQB+AAwtAFBHdAAIdG9TdHJpbmdzcQB+AAz6lAhkdAAPaW5kZXgkZGVmYXVsdCQzc3EAfgAME6FPaHQACXByb2R1Y3RJZHNxAH4ADPW2rDt0AAIhPXNxAH4ADES8Q2F0AAhnZXRDbGFzc3NxAH4ADP8DDOB0ABN0YWJsZUlkZW50aXR5U3ltYm9sc3EAfgAMr8zaPXQAAm5lc3EAfgAM1V/05XQAAU9zcQB+AAydAYg1dAAOU2hvcFJlcG9zaXRvcnlzcQB+AAwA4HTIdAACZXFzcQB+AAzkh/IodAARcHJpbWFyeVByb2Zlc3Npb25zcQB+AAzB3pB5dAACIyNzcQB+AAxE1y51dAAIZmluYWxpemVzcQB+AAw4/zcHdAAMUHJvZHVjdFRhYmxlc3EAfgAM++5f3nQABWluZGV4c3EAfgAMDhKwQXQACGhhc2hDb2Rlc3EAfgAMAK59H3QAB3Byb2R1Y3RzcQB+AAztFp5ndAAIUHJvZHVjdHNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCveHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AJN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AxnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCvTAAJaW5oZXJpdGVkcQB+AK9MAAdwYXJlbnRzcQB+AK94cQB+AMtzcQB+AMZ1cQB+AKoAAAAAc3EAfgDGdXEAfgCqAAAAAHNxAH4AxnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AynQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AynNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4A43QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4A5HNxAH4A13QAA0FueXNxAH4A23NxAH4A3nVxAH4A4QAAAAJzcQB+AON0AAVzY2FsYXEAfgDqc3EAfgCscQB+ALl1cQB+ALoAAAAAc3EAfgC8AHQADlNob3BSZXBvc2l0b3J5dXEAfgC+AAAAAH5xAH4AwHQABk1vZHVsZXVxAH4AxAAAAABzcQB+AMZxAH4AzHNxAH4AxnNxAH4AznNxAH4AxnVxAH4AqgAAAABzcQB+AMZ1cQB+AKoAAAAAc3EAfgDGdXEAfgDVAAAAAnNxAH4A13EAfgDac3EAfgDbc3EAfgDedXEAfgDhAAAAA3NxAH4A43EAfgDmc3EAfgDjcQB+AOhxAH4A6nNxAH4A13EAfgDsc3EAfgDbc3EAfgDedXEAfgDhAAAAAnNxAH4A43EAfgDxcQB+AOp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ63WwZJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABaL1VzZXJzL2thbnN1a2Vpa2VoYXJhL0RvY3VtZW50cy9jb2RlL0dpdC9wbGF5LXdpdGgtc2NhbGEtZ3JhcGhxbC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUZVJKVMhPNulkMx7qLz2CNhHu/NE=
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwgdqWCwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAABZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwou+FenQADnJ1bnRpbWVNaW51dGVzc3EAfgAMU/vBcXQAD05hbWVCYXNpY3NUYWJsZXNxAH4ADP7uNmB0AAZub3RpZnlzcQB+AAxprOOJdAALVGF4b25vbWV0cnlzcQB+AAzyE6nFdAANZGF0YWJhc2VTZXR1cHNxAH4ADHvVEnx0AARuYW1lc3EAfgAMGrCkdnQADWFsbENhdGVnb3JpZXNzcQB+AAxKrBFtdAALcHJpbWFyeU5hbWVzcQB+AAw2Y8i/dAAKY2F0ZWdvcnlJZHNxAH4ADNhIghR0AApuYW1lQmFzaWNzc3EAfgAMRQlB6nQABHdhaXRzcQB+AAyEvljAdAABKnNxAH4ADH+QJEt0ABJyZWFkTmFtZUJhc2ljc0ZpbGVzcQB+AAwqiuYxdAANJGFzSW5zdGFuY2VPZnNxAH4ADKinXN10AAZ0Y29uc3RzcQB+AAzMwG7jdAAOa25vd25Gb3JUaXRsZXNzcQB+AAzT6ab4dAAGZXF1YWxzc3EAfgAMLMCVJHQAFGZvcmVpZ25LZXkkZGVmYXVsdCQ1c3EAfgAMe2TcgnQAC2Rlc2NyaXB0aW9uc3EAfgAMo5drAHQAB2luZGV4ZXNzcQB+AAx4M9kvdAAMYXNJbnN0YW5jZU9mc3EAfgAMN+2xvXQAEHRhYmxlQ29uc3RyYWludHNzcQB+AAwSstHrdAAQTW92aWVCYXNpY3NUYWJsZXNxAH4ADAvggjd0AAVwcmljZXNxAH4ADLhKyNF0AApmb3JlaWduS2V5c3EAfgAMi2anEnQADHN5bmNocm9uaXplZHNxAH4ADK//cbJ0AApDYXRlZ29yaWVzc3EAfgAM7kFnOXQACXRpdGxlVHlwZXNxAH4ADC9WLa50AA0kaXNJbnN0YW5jZU9mc3EAfgAMFFZBkHQADW9yaWdpbmFsVGl0bGVzcQB+AAz7jUs6dAAJZW5jb2RlUmVmc3EAfgAMaM2y93QAC3ByaW1hcnlLZXlzc3EAfgAMQ/qrp3QACXRhYmxlTm9kZXNxAH4ADH86/ah0AAliaXJ0aFllYXJzcQB+AAxKQopvdAAGbmNvbnN0c3EAfgAMpVOyt3QAC2FsbFByb2R1Y3Rzc3EAfgAMyDggdHQADUNhdGVnb3J5VGFibGVzcQB+AAwHFZeVdAAIcHJvZHVjdHNzcQB+AAzLerSjdAANdGFibGVQcm92aWRlcnNxAH4ADEAy1Gt0AAtmb3JlaWduS2V5c3NxAH4ADMTYXuR0AAlub3RpZnlBbGxzcQB+AAxSFbaUdAAJc3RhcnRZZWFyc3EAfgAMOgzXz3QACnByaW1hcnlLZXlzcQB+AAyCpFlMdAAOY3JlYXRlRGF0YWJhc2VzcQB+AAxRRfKLdAAMaXNJbnN0YW5jZU9mc3EAfgAMDZqbqnQAB2VuZFllYXJzcQB+AAyn0jiVdAAQTmFtZUJhc2ljc1RhYmxlc3NxAH4ADJE2nvJ0AAttb3ZpZUJhc2ljc3NxAH4ADJoLSM90AAlkZWF0aFllYXJzcQB+AAwJj7yBdAAUZm9yZWlnbktleSRkZWZhdWx0JDZzcQB+AAyeaTuvdAAGPGluaXQ+c3EAfgAMCU3KlnQADVRheG9ub215VGFibGVzcQB+AAxSETBmdAACaWRzcQB+AAyTgOvwdAAKc2NoZW1hTmFtZXNxAH4ADDy+wTF0AAhjcmVhdGVfKnNxAH4ADGcTAM50AAl0YWJsZU5hbWVzcQB+AAyF5LOodAAIdGFibGVUYWdzcQB+AAyLKXWGdAACPT1zcQB+AAwwApIVdAAMcHJpbWFyeVRpdGxlc3EAfgAMwInCcXQABWNsb25lc3EAfgAMw1ip8HQABnRvTm9kZXNxAH4ADK+ymJB0ABNjb2xsZWN0RmllbGRTeW1ib2xzc3EAfgAMtK9E2HQAB2lzQWR1bHRzcQB+AAx3UvsKdAAQVGFibGVFbGVtZW50VHlwZXNxAH4ADFPXvf90AAYkaW5pdCRzcQB+AAw22mbqdAAGZ2VucmVzc3EAfgAM/uGy43QACmNhdGVnb3JpZXNzcQB+AAzpu8+bdAAIY2F0ZWdvcnlzcQB+AAw3hrjrdAADaWR4c3EAfgAMlEvbrnQABmNvbHVtbnNxAH4ADExAR1V0AAh0b1N0cmluZ3NxAH4ADPaF6TV0AA9pbmRleCRkZWZhdWx0JDNzcQB+AAwToU9odAAJcHJvZHVjdElkc3EAfgAMOP54d3QAAiE9c3EAfgAM0ykgYXQAEU1vdmllQmFzaWNzVGFibGVzc3EAfgAMlvln+HQACGdldENsYXNzc3EAfgAMuiPjlXQAE3RhYmxlSWRlbnRpdHlTeW1ib2xzcQB+AAzfrrIPdAACbmVzcQB+AAy4ax9fdAABT3NxAH4ADJ0BiDV0AA5TaG9wUmVwb3NpdG9yeXNxAH4ADBvGnV90AAJlcXNxAH4ADOSH8ih0ABFwcmltYXJ5UHJvZmVzc2lvbnNxAH4ADNRYojt0AAIjI3NxAH4ADGLQKZd0AAhmaW5hbGl6ZXNxAH4ADDj/Nwd0AAxQcm9kdWN0VGFibGVzcQB+AAzZ5/lYdAAFaW5kZXhzcQB+AAwzlj40dAAIaGFzaENvZGVzcQB+AAwArn0fdAAHcHJvZHVjdHNxAH4ADO0Wnmd0AAhQcm9kdWN0c3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AMl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4ArXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgDgc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AMlMAAlpbmhlcml0ZWRxAH4AyUwAB3BhcmVudHNxAH4AyXhxAH4A5XNxAH4A4HVxAH4AxAAAAABzcQB+AOB1cQB+AMQAAAAAc3EAfgDgdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgDkdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgDkc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgD9dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgD+c3EAfgDxdAADQW55c3EAfgD1c3EAfgD4dXEAfgD7AAAAAnNxAH4A/XQABXNjYWxhcQB+AQRzcQB+AMZxAH4A03VxAH4A1AAAAABzcQB+ANYAdAAOU2hvcFJlcG9zaXRvcnl1cQB+ANgAAAAAfnEAfgDadAAGTW9kdWxldXEAfgDeAAAAAHNxAH4A4HEAfgDmc3EAfgDgc3EAfgDoc3EAfgDgdXEAfgDEAAAAAHNxAH4A4HVxAH4AxAAAAABzcQB+AOB1cQB+AO8AAAACc3EAfgDxcQB+APRzcQB+APVzcQB+APh1cQB+APsAAAADc3EAfgD9cQB+AQBzcQB+AP1xAH4BAnEAfgEEc3EAfgDxcQB+AQZzcQB+APVzcQB+APh1cQB+APsAAAACc3EAfgD9cQB+AQtxAH4BBHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFntKJfCHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFovVXNlcnMva2Fuc3VrZWlrZWhhcmEvRG9jdW1lbnRzL2NvZGUvR2l0L3BsYXktd2l0aC1zY2FsYS1ncmFwaHFsL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR9pPIsl3/jjl836Cj4RCe0rIwoLA==
 external apis:
 0 items
 source infos:
@@ -1061,8 +1185,14 @@ AAAAAAAAAAA=
 /Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/src/main/scala/ShopRepository.scala -> 
 AAAAAAAAAAA=
 compilations:
-4 items
+10 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ6jUQ7h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvZ3JhcGhxbC1ha2thLWh0dHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ6m3njt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ6nRROh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
 3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ63WwZJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ68cmc51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ7SbDbJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ7SbKvt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ7Sc1Zh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+8 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ7SeErh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+9 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZ7SiXwh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWi9Vc2Vycy9rYW5zdWtlaWtlaGFyYS9Eb2N1bWVudHMvY29kZS9HaXQvcGxheS13aXRoLXNjYWxhLWdyYXBocWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

@@ -22,14 +22,28 @@ object Models {
 
 
   case class NameBasics(
+                         id: Long,
                          nconst: String,
                          primaryName: String,
                          birthYear: String,
                          deathYear: String,
-                         primaryProfession: String,//Array[String],
-                         knownForTitles: String//Array[String]
+                         primaryProfession: String, // array entry
+                         knownForTitles: String // array entry
                        )
 
+
+  case class MovieBasics(
+                          tconst: String,
+                          titleType: String,
+                          primaryTitle: String,
+                          originalTitle: String,
+                          isAdult: String,
+                          startYear: String,
+                          endYear: String,
+                          runtimeMinutes: String,
+                          genres: String, // array entry
+
+                        )
 }
 
 

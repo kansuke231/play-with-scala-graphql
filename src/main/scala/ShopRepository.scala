@@ -1,6 +1,7 @@
 import Models._
 import slick.jdbc.H2Profile.api._
 
+import scala.Console.println
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
 import scala.language.postfixOps
@@ -22,6 +23,14 @@ class ShopRepository(db: Database) {
   def category(id: CategoryId): Future[Option[Category]] = db.run(Categories.filter(_.id === id).result.headOption)
 
   def nameBasics = db.run(NameBasicsTables.result)
+
+  def movieBasics = db.run(MovieBasicsTables.result)
+
+//  def movieInfo(primaryTitle: String) = {
+//    val a = db.run(MovieBasicsTables.filter(_.primaryTitle === primaryTitle).result)
+//    a.
+//
+//  }
 
 }
 
@@ -52,20 +61,38 @@ object ShopRepository {
   val Categories = TableQuery[CategoryTable]
 
 
-  // New stuff
+  // New stuff from here
   class NameBasicsTable(tag: Tag) extends Table[NameBasics](tag, "NAMEBASICS") {
 
-    def nconst = column[String]("NCONST", O.PrimaryKey)
+    def id = column[Long]("ID", O.PrimaryKey)
+    def nconst = column[String]("NCONST")
     def primaryName = column[String]("PRIMARY_NAME")
     def birthYear = column[String]("BIRTH_YEAR")
     def deathYear = column[String]("DEATH_YEAR")
     def primaryProfession = column[String]("PRIMARY_PROFESSION")
     def knownForTitles = column[String]("KNOWN_FOR_TITLES")
 
-    def * = (nconst, primaryName, birthYear, deathYear, primaryProfession, knownForTitles) <> ((NameBasics.apply _).tupled, NameBasics.unapply)
+    def * = (id, nconst, primaryName, birthYear, deathYear, primaryProfession, knownForTitles) <> ((NameBasics.apply _).tupled, NameBasics.unapply)
   }
 
   val NameBasicsTables = TableQuery[NameBasicsTable]
+
+  class MovieBasicsTable(tag: Tag) extends Table[MovieBasics](tag, "MOVIEBASICS") {
+
+    def tconst = column[String]("TCONST", O.PrimaryKey)
+    def titleType = column[String]("PRIMARY_NAME")
+    def primaryTitle = column[String]("PRIMARY_TITLE")
+    def originalTitle = column[String]("ORIGINAL_TITLE")
+    def isAdult = column[String]("IS_ADULT")
+    def startYear = column[String]("START_YEAR")
+    def endYear = column[String]("END_YEAR")
+    def runtimeMinutes = column[String]("RUNTIME_MINUTE")
+    def genres = column[String]("GENRES")
+
+    def * = (tconst, titleType, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genres) <> ((MovieBasics.apply _).tupled, MovieBasics.unapply)
+  }
+
+  val MovieBasicsTables = TableQuery[MovieBasicsTable]
 
 
   /**
@@ -89,7 +116,7 @@ object ShopRepository {
   val Taxonometry = TableQuery[TaxonomyTable]
 
   val databaseSetup = DBIO.seq(
-    (Products.schema ++ Categories.schema ++ Taxonometry.schema ++ NameBasicsTables.schema ).create,
+    (Products.schema ++ Categories.schema ++ Taxonometry.schema ++ NameBasicsTables.schema ++ MovieBasicsTables.schema).create,
 
     Products ++= Seq(
       Product(1, "Cheescake", "Tasty", BigDecimal(12.34)),
@@ -118,11 +145,17 @@ object ShopRepository {
     ),
 
       // New stuff here.
-      NameBasicsTables ++= Seq(
-      NameBasics("nm0000001", "Fred Astaire",	"1899", "1987", "soundtrack,actor,miscellaneous", "tt0050419,tt0072308,tt0043044,tt0053137"),
-      NameBasics("nm0000002", "Lauren Bacall",	"1924", "2014", "actress,soundtrack", "tt0038355,tt0117057,tt0037382,tt0071877")
+//      NameBasicsTables ++= Seq(
+//        NameBasics(0, "nm0000001", "Fred Astaire",	"1899", "1987", "soundtrack,actor,miscellaneous", "tt0050419,tt0072308,tt0043044,tt0053137"),
+//        NameBasics(1, "nm0000002", "Lauren Bacall",	"1924", "2014", "actress,soundtrack", "tt0038355,tt0117057,tt0037382,tt0071877")
+//    ),
 
-    )
+    NameBasicsTables ++= readNameBasicsFile("/Users/kansukeikehara/Documents/code/Git/play-with-scala-graphql/imdb_data/name.basics.tsv"),
+
+      MovieBasicsTables ++= Seq(
+        MovieBasics("tt0000001",	"short",	"Carmencita", "Carmencita",	"0", "1894",	"\\N",	"1",	"Documentary,Short"),
+        MovieBasics("tt0000002",	"short",	"Le clown et ses chiens", "Le clown et ses chiens",	"0", "1892",	"\\N",	"5",	"Animation,Short")
+      )
   )
 
   def createDatabase() = {
@@ -131,6 +164,35 @@ object ShopRepository {
     Await.result(db.run(databaseSetup), 10 seconds)
 
     new ShopRepository(db)
+  }
+
+  def readNameBasicsFile(filePath: String): Seq[NameBasics] = {
+
+    val bufferedSource = io.Source.fromFile(filePath)
+    var result: Seq[NameBasics] = Seq()
+
+    var counter: Long = 0
+
+    for (line <- bufferedSource.getLines) {
+      val cols = line.split("\t").map(_.trim)
+
+      // Let's focus on the column that are necessary
+      val nconst = cols(0)
+      val primaryName = cols(1)
+      val knownForTitles = cols(5)
+
+      val titles = knownForTitles.split(",").map(_.trim)
+
+      titles.foreach(tconst => {
+        println("GREEN" + counter)
+        result = result :+ NameBasics(counter, nconst, primaryName,	"", "", "", tconst)
+        counter = counter + 1
+      })
+
+    }
+    bufferedSource.close
+    result
+
   }
 
 }
