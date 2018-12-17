@@ -19,7 +19,9 @@ libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick-hikaricp" % "3.2.0",
   "com.h2database" % "h2" % "1.4.193",
 
-  "org.scalatest" %% "scalatest" % "3.0.1" % Test
+  "org.scalatest" %% "scalatest" % "3.0.1" % Test,
+
+  "com.github.tminglei" %% "slick-pg" % "0.17.0"
 )
 
 Revolver.settings

@@ -22,13 +22,12 @@ object Models {
 
 
   case class NameBasics(
-                         id: Long,
                          nconst: String,
                          primaryName: String,
-                         birthYear: String,
-                         deathYear: String,
-                         primaryProfession: String, // array entry
-                         knownForTitles: String // array entry
+                         birthYear: Option[String],
+                         deathYear: Option[String],
+                         primaryProfession: List[String], // array entry
+                         knownForTitles: List[String] // array entry
                        )
 
 
@@ -41,7 +40,7 @@ object Models {
                           startYear: String,
                           endYear: String,
                           runtimeMinutes: String,
-                          genres: String, // array entry
+                          genres: List[String], // array entry
 
                         )
 }
