@@ -31,14 +31,14 @@ object Models {
                        )
 
 
-  case class MovieBasics(
+  case class TitleBasics(
                           tconst: String,
                           titleType: String,
                           primaryTitle: String,
                           originalTitle: String,
                           isAdult: String,
                           startYear: String,
-                          endYear: String,
+                          endYear: Option[String],
                           runtimeMinutes: String,
                           genres: List[String], // array entry
 

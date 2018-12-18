@@ -2,7 +2,6 @@ import Models._
 import slick.jdbc.H2Profile.api._
 import com.github.tminglei.slickpg._
 
-import scala.concurrent.Future
 import scala.language.postfixOps
 
 
@@ -37,9 +36,9 @@ class ShopRepository(db: Database) {
 //
 //  def category(id: CategoryId): Future[Option[Category]] = db.run(Categories.filter(_.id === id).result.headOption)
 
-  def nameBasics(nconst: String) = db.run(NameBasicsTables.filter(_.nconst === nconst) .result)
+  def nameBasics(nconst: String) = db.run(NameBasicsTables.filter(_.nconst === nconst).result.headOption)
 
-  def movieBasics = db.run(MovieBasicsTables.result)
+  def titleBasics(tconst: String) = db.run(MovieBasicsTables.filter(_.tconst === tconst).result.headOption)
 
 //  def movieInfo(primaryTitle: String) = {
 //    val a = db.run(MovieBasicsTables.filter(_.primaryTitle === primaryTitle).result)
@@ -68,28 +67,27 @@ object ShopRepository {
 
   val NameBasicsTables = TableQuery[NameBasicsTable]
 
-  class MovieBasicsTable(tag: Tag) extends Table[MovieBasics](tag, "movie_basics") {
+  class TitleBasicsTable(tag: Tag) extends Table[TitleBasics](tag, "title_basics") {
 
-    def tconst = column[String]("TCONST", O.PrimaryKey)
-    def titleType = column[String]("PRIMARY_NAME")
-    def primaryTitle = column[String]("PRIMARY_TITLE")
-    def originalTitle = column[String]("ORIGINAL_TITLE")
-    def isAdult = column[String]("IS_ADULT")
-    def startYear = column[String]("START_YEAR")
-    def endYear = column[String]("END_YEAR")
-    def runtimeMinutes = column[String]("RUNTIME_MINUTE")
-    def genres = column[List[String]]("GENRES")
+    def tconst = column[String]("tconst", O.PrimaryKey)
+    def titleType = column[String]("title_type")
+    def primaryTitle = column[String]("primary_title")
+    def originalTitle = column[String]("original_title")
+    def isAdult = column[String]("is_adult")
+    def startYear = column[String]("start_year")
+    def endYear = column[Option[String]]("end_year")
+    def runtimeMinutes = column[String]("runtime_minutes")
+    def genres = column[List[String]]("genres")
 
-    def * = (tconst, titleType, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genres) <> ((MovieBasics.apply _).tupled, MovieBasics.unapply)
+    def * = (tconst, titleType, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genres) <> ((TitleBasics.apply _).tupled, TitleBasics.unapply)
   }
 
-  val MovieBasicsTables = TableQuery[MovieBasicsTable]
-
+  val MovieBasicsTables = TableQuery[TitleBasicsTable]
 
 
 
   def createDatabase() = {
-    val db = Database.forURL("jdbc:postgresql://localhost:5432/imdb", "kansukeikehara", "monty231",
+    val db = Database.forURL("jdbc:postgresql://localhost:5432/imdb", "username", "password",
       null, "org.postgresql.Driver")
 
     new ShopRepository(db)

@@ -33,8 +33,8 @@ object SchemaDef {
       DocumentField("knownForTitles", "(array of tconsts) – titles the person is known for")
     )
 
-  implicit val MovieBasicsType: ObjectType[Unit, MovieBasics] =
-    deriveObjectType[Unit, MovieBasics](
+  implicit val TitleBasicsType: ObjectType[Unit, TitleBasics] =
+    deriveObjectType[Unit, TitleBasics](
       ObjectTypeDescription("Information for MovieBasics"),
       DocumentField("tconst", ""),
       DocumentField("titleType", ""),
@@ -53,19 +53,16 @@ object SchemaDef {
     "Query",
     fields[ShopRepository, Unit](
 
-
-        // For all NameBasics
-        Field("nameBasics", ListType(NameBasicsType),
-        description = Some("Returns a list of name basics"),
+        Field("nameBasics", OptionType(NameBasicsType),
+          description = Some("Returns information of the persion for a specific nconst"),
           arguments = Argument("nconst", StringType) :: Nil,
         resolve = c => c.ctx.nameBasics(c.arg[String]("nconst"))
       ),
 
-      // For all NameBasics
-      Field("movieBasics", ListType(MovieBasicsType),
+      Field("titleBasics", OptionType(TitleBasicsType),
         description = Some("Returns a list of movie basics"),
-        //arguments = Argument("ids", ListInputType(IntType)) :: Nil,
-        resolve = c => c.ctx.movieBasics
+        arguments = Argument("tconst", StringType) :: Nil,
+        resolve = c => c.ctx.titleBasics(c.arg[String]("tconst"))
       )
     )
   )
