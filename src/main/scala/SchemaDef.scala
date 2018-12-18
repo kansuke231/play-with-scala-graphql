@@ -1,26 +1,11 @@
 import sangria.schema._
 
+
 object SchemaDef {
 
   import Models._
   import sangria.macros.derive._
 
-  val IdentifiableType = InterfaceType(
-    "Identifiable",
-    "Entity that can be identified",
-    fields[Unit, Identifiable](
-      Field("id", IntType, resolve = _.value.id)
-    )
-  )
-
-
-  implicit val PictureType: ObjectType[Unit, Picture] =
-    deriveObjectType[Unit, Picture](
-      ObjectTypeDescription("The product picture"),
-      DocumentField("url", "Picture CDN URL")
-    )
-
-  // From here my stuff.
 
   implicit val NameBasicsType: ObjectType[Unit, NameBasics] =
     deriveObjectType[Unit, NameBasics](
@@ -51,7 +36,7 @@ object SchemaDef {
 
   val QueryType = ObjectType(
     "Query",
-    fields[ShopRepository, Unit](
+    fields[MyContext, Unit](
 
         Field("nameBasics", OptionType(NameBasicsType),
           description = Some("Returns information of the persion for a specific nconst"),
@@ -60,12 +45,14 @@ object SchemaDef {
       ),
 
       Field("titleBasics", OptionType(TitleBasicsType),
-        description = Some("Returns a list of movie basics"),
-        arguments = Argument("tconst", StringType) :: Nil,
-        resolve = c => c.ctx.titleBasics(c.arg[String]("tconst"))
+        description = Some("Returns information of the specified movie"),
+        arguments = Argument("primaryTitle", StringType) :: Nil,
+        resolve = c => c.ctx.titleBasics(c.arg[String]("primaryTitle"))
       )
     )
   )
 
-  val ShopSchema = Schema(QueryType) //define entry point
+  val schema = Schema(QueryType) //define entry point
+
+
 }

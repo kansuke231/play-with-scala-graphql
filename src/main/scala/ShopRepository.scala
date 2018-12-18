@@ -20,35 +20,27 @@ trait MyPostgresProfile extends ExPostgresProfile
 object MyPostgresProfile extends MyPostgresProfile
 
 
-class ShopRepository(db: Database) {
+class MyContext(db: Database) {
 
-  import ShopRepository._
+  import MyContext._
 
-//  def allProducts = db.run(Products.result)
-//
-//  def products(ids: Seq[ProductId]): Future[Seq[Product]] = db.run(Products.filter(_.id inSet ids).result)
-//
-//  def product(id: ProductId): Future[Option[Product]] = db.run(Products.filter(_.id === id).result.headOption)
-//
-//  def allCategories = db.run(Categories.result)
-//
-//  def categories(ids: Seq[CategoryId]): Future[Seq[Category]] = db.run(Categories.filter(_.id inSet ids).result)
-//
-//  def category(id: CategoryId): Future[Option[Category]] = db.run(Categories.filter(_.id === id).result.headOption)
 
   def nameBasics(nconst: String) = db.run(NameBasicsTables.filter(_.nconst === nconst).result.headOption)
 
-  def titleBasics(tconst: String) = db.run(MovieBasicsTables.filter(_.tconst === tconst).result.headOption)
+  def titleBasics(primaryTitle: String) = db.run(MovieBasicsTables.filter(_.primaryTitle === primaryTitle).result.headOption)
 
-//  def movieInfo(primaryTitle: String) = {
-//    val a = db.run(MovieBasicsTables.filter(_.primaryTitle === primaryTitle).result)
-//    a.
+//  def movieWithCasts(primaryTitle: String) = {
+//    val a = db.run(
+//      MovieBasicsTables.
+//        filter(_.primaryTitle === primaryTitle).
+//        join(NameBasicsTables).on((title,name) =>  title.tconst inSetBind  name.knownForTitles).result
+//    )
 //
 //  }
 
 }
 
-object ShopRepository {
+object MyContext {
 
   import MyPostgresProfile.api._
 
@@ -90,7 +82,7 @@ object ShopRepository {
     val db = Database.forURL("jdbc:postgresql://localhost:5432/imdb", "username", "password",
       null, "org.postgresql.Driver")
 
-    new ShopRepository(db)
+    new MyContext(db)
   }
 
 

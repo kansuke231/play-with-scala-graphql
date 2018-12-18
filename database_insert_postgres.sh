@@ -3,6 +3,7 @@
 # You may need to do "chmod +x database_insert_postgres.sh"
 
 
+# Commands below are used for creating database tables.
 #CREATE TABLE name_basics(
 #    nconst VARCHAR PRIMARY KEY,
 #    primary_name VARCHAR,
@@ -26,8 +27,8 @@
 
 
 
-base=
-file=
+base="basepath"
+file="imdb_data/title.basics.modified.tsv"
 
 ### for name.basics.tsv
 # Skipping the header row
