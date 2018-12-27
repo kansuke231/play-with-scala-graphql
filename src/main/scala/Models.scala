@@ -24,6 +24,14 @@ object Models {
                           genres: List[String], // array entry
 
                         )
+
+  case class Cast(primaryName: String, primaryProfession: List[String])
+
+  case class MovieInfo(
+                        primaryTitle: String,
+                        genres: List[String],
+                        casts: List[Cast]
+                        )
 }
 
 

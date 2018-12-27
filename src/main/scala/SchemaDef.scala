@@ -32,6 +32,20 @@ object SchemaDef {
       DocumentField("genres", "")
     )
 
+  implicit val CastType: ObjectType[Unit, Cast] =
+    deriveObjectType[Unit, Cast](
+      ObjectTypeDescription("Cast for a specific movie."),
+      DocumentField("primaryName", ""),
+      DocumentField("primaryProfession", ""),
+    )
+
+  implicit val MovieInfoType: ObjectType[Unit, MovieInfo] =
+    deriveObjectType[Unit, MovieInfo](
+      ObjectTypeDescription("Information for MovieInfo"),
+      DocumentField("primaryTitle", ""),
+      DocumentField("genres", ""),
+    )
+
 
 
   val QueryType = ObjectType(
@@ -48,6 +62,13 @@ object SchemaDef {
         description = Some("Returns information of the specified movie"),
         arguments = Argument("primaryTitle", StringType) :: Nil,
         resolve = c => c.ctx.titleBasics(c.arg[String]("primaryTitle"))
+      )
+      ,
+
+      Field("movieWithCasts", OptionType(MovieInfoType),
+        description = Some("Returns information of the specified movie"),
+        arguments = Argument("primaryTitle", StringType) :: Nil,
+        resolve = c => c.ctx.movieWithCasts(c.arg[String]("primaryTitle"))
       )
     )
   )
