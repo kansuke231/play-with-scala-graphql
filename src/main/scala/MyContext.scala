@@ -4,7 +4,6 @@ import com.github.tminglei.slickpg._
 
 import scala.concurrent.Future
 import scala.language.postfixOps
-import scala.util.{Failure, Success}
 
 import scala.concurrent._
 import ExecutionContext.Implicits.global
@@ -36,25 +35,43 @@ class MyContext(db: Database) {
     db.run(MovieBasicsTables.filter(_.primaryTitle === primaryTitle).result.headOption)
   }
 
-  def movieWithCasts(primaryTitle: String): Future[MovieInfo] = {
+  def movieWithCasts(title: String): Future[MovieInfo] = {
 
     val query =
       for {
         (movie, name) <- MovieBasicsTables join  NameBasicsTables on (_.tconst === _.knownForTitles.any)
-        if movie.primaryTitle === primaryTitle
+        if movie.primaryTitle === title || movie.originalTitle === title
       } yield (movie.primaryTitle, movie.genres, name.primaryName, name.primaryProfession)
 
 
 
     db.run(query.result).map(
       table => {
-        val casts = table.map(
-          row => Cast(row._3, row._4)
+        val castAndCrews = table.map(
+          row => Person(row._3, row._4)
         )
-        MovieInfo(table(0)._1, table(0)._2, casts.toList)
+        MovieInfo(table(0)._1, table(0)._2, castAndCrews.toList)
       }
     )
 
+  }
+
+  def topRatedMovies(genre: String): Future[Seq[MovieWithRating]] = {
+    val query =
+      for {
+        (movie, rating) <- MovieBasicsTables join  TitleRatingsTables on (_.tconst === _.tconst)
+        if genre.bind === movie.genres.any
+      } yield (movie.primaryTitle, rating.averageRating, rating.numVotes)
+
+
+    db.run(query.sortBy(_._3.desc).take(50).sortBy(_._2.desc).result).map(
+    //db.run(query.sortBy(columns => (columns._3.desc, columns._2.desc)).take(50).result).map(
+      table => {
+        table.map(
+          row => MovieWithRating(row._1, genre, row._2, row._3)
+        )
+      }
+    )
   }
 
 }
@@ -94,6 +111,19 @@ object MyContext {
   }
 
   val MovieBasicsTables = TableQuery[TitleBasicsTable]
+
+
+  class TitleRatingsTable(tag: Tag) extends Table[TitleRating](tag, "title_ratings") {
+
+    def tconst = column[String]("tconst", O.PrimaryKey)
+    def averageRating = column[Float]("average_rating")
+    def numVotes = column[Int]("num_votes")
+
+
+    def * = (tconst, averageRating, numVotes) <> ((TitleRating.apply _).tupled, TitleRating.unapply)
+  }
+
+  val TitleRatingsTables = TableQuery[TitleRatingsTable]
 
 
 

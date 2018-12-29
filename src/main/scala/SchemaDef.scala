@@ -32,8 +32,8 @@ object SchemaDef {
       DocumentField("genres", "")
     )
 
-  implicit val CastType: ObjectType[Unit, Cast] =
-    deriveObjectType[Unit, Cast](
+  implicit val PersonType: ObjectType[Unit, Person] =
+    deriveObjectType[Unit, Person](
       ObjectTypeDescription("Cast for a specific movie."),
       DocumentField("primaryName", ""),
       DocumentField("primaryProfession", ""),
@@ -44,6 +44,15 @@ object SchemaDef {
       ObjectTypeDescription("Information for MovieInfo"),
       DocumentField("primaryTitle", ""),
       DocumentField("genres", ""),
+    )
+
+  implicit val MovieWithRatingType: ObjectType[Unit, MovieWithRating] =
+    deriveObjectType[Unit, MovieWithRating](
+      ObjectTypeDescription("Top rated movies of a specific genre."),
+      DocumentField("primaryTitle", ""),
+      DocumentField("genre", ""),
+      DocumentField("averageRating", ""),
+      DocumentField("numVotes", "")
     )
 
 
@@ -65,10 +74,16 @@ object SchemaDef {
       )
       ,
 
-      Field("movieWithCasts", OptionType(MovieInfoType),
+      Field("movieWithCastsAndCrews", OptionType(MovieInfoType),
         description = Some("Returns information of the specified movie"),
-        arguments = Argument("primaryTitle", StringType) :: Nil,
-        resolve = c => c.ctx.movieWithCasts(c.arg[String]("primaryTitle"))
+        arguments = Argument("title", StringType) :: Nil,
+        resolve = c => c.ctx.movieWithCasts(c.arg[String]("title"))
+      ),
+
+      Field("topRatedMovies", ListType(MovieWithRatingType),
+        description = Some("Returns top rated movies of a specific genre"),
+        arguments = Argument("genre", StringType) :: Nil,
+        resolve = c => c.ctx.topRatedMovies(c.arg[String]("genre"))
       )
     )
   )

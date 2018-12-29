@@ -25,13 +25,26 @@ object Models {
 
                         )
 
-  case class Cast(primaryName: String, primaryProfession: List[String])
+  case class Person(primaryName: String, primaryProfession: List[String])
 
   case class MovieInfo(
                         primaryTitle: String,
                         genres: List[String],
-                        casts: List[Cast]
+                        castsAndCrews: List[Person]
                         )
+
+  case class TitleRating(
+                   tconst: String,
+                   averageRating: Float,
+                   numVotes: Int
+                   )
+
+  case class MovieWithRating(
+                            primaryTitle: String,
+                            genre: String,
+                            averageRating: Double,
+                            numVotes: Int
+                            )
 }
 
 

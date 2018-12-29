@@ -25,10 +25,16 @@
 #    genres VARCHAR[]
 #);
 
+#CREATE TABLE title_ratings(
+#    tconst VARCHAR PRIMARY KEY,
+#    average_rating DECIMAL,
+#    num_votes INTEGER
+#);
 
 
-base="basepath"
-file="imdb_data/title.basics.modified.tsv"
+
+base="base"
+file="imdb_data/title.ratings.tsv"
 
 ### for name.basics.tsv
 # Skipping the header row
@@ -49,3 +55,6 @@ file="imdb_data/title.basics.modified.tsv"
 
 # COPY the data from tsv file to Postgres
 #psql -d imdb -h localhost -p 5432 -c "COPY title_basics FROM '$base$file' DELIMITER E'\t';"
+
+### for title.ratings.tsv
+#psql -d imdb -h localhost -p 5432 -c "COPY title_ratings FROM '$base$file' DELIMITER E'\t';"
