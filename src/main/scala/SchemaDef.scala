@@ -55,6 +55,22 @@ object SchemaDef {
       DocumentField("numVotes", "")
     )
 
+  implicit val PersonWithGenresType: ObjectType[Unit, PersonWithGenres] =
+    deriveObjectType[Unit, PersonWithGenres](
+      ObjectTypeDescription(""),
+      DocumentField("name", ""),
+      DocumentField("numberOfMovies", ""),
+      DocumentField("frequencies", ""),
+      DocumentField("isTypeCasted", "")
+    )
+
+  implicit val FrequencyType: ObjectType[Unit, Frequency] =
+    deriveObjectType[Unit, Frequency](
+      ObjectTypeDescription(""),
+      DocumentField("genre", ""),
+      DocumentField("frequency", ""),
+    )
+
 
 
   val QueryType = ObjectType(
@@ -82,8 +98,14 @@ object SchemaDef {
 
       Field("topRatedMovies", ListType(MovieWithRatingType),
         description = Some("Returns top rated movies of a specific genre"),
-        arguments = Argument("genre", StringType) :: Nil,
-        resolve = c => c.ctx.topRatedMovies(c.arg[String]("genre"))
+        arguments = Argument("genre", StringType) :: Argument("number", IntType) :: Nil,
+        resolve = c => c.ctx.topRatedMovies(c.arg[String]("genre"), c.arg[Int]("number"))
+      ),
+
+      Field("personWithGenres", PersonWithGenresType,
+        description = Some(""),
+        arguments = Argument("name", StringType) :: Nil,
+        resolve = c => c.ctx.isTypeCasted(c.arg[String]("name"))
       )
     )
   )

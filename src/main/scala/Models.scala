@@ -45,6 +45,10 @@ object Models {
                             averageRating: Double,
                             numVotes: Int
                             )
+
+  case class PersonWithGenres(name: String, numberOfMovies: Int, frequencies: List[Frequency], isTypeCasted: Boolean)
+
+  case class Frequency(genre: String, frequency: Int)
 }
 
 

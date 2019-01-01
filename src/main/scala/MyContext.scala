@@ -4,7 +4,6 @@ import com.github.tminglei.slickpg._
 
 import scala.concurrent.Future
 import scala.language.postfixOps
-
 import scala.concurrent._
 import ExecutionContext.Implicits.global
 
@@ -56,7 +55,8 @@ class MyContext(db: Database) {
 
   }
 
-  def topRatedMovies(genre: String): Future[Seq[MovieWithRating]] = {
+  def topRatedMovies(genre: String, number: Int): Future[Seq[MovieWithRating]] = {
+
     val query =
       for {
         (movie, rating) <- MovieBasicsTables join  TitleRatingsTables on (_.tconst === _.tconst)
@@ -64,14 +64,46 @@ class MyContext(db: Database) {
       } yield (movie.primaryTitle, rating.averageRating, rating.numVotes)
 
 
-    db.run(query.sortBy(_._3.desc).take(50).sortBy(_._2.desc).result).map(
     //db.run(query.sortBy(columns => (columns._3.desc, columns._2.desc)).take(50).result).map(
+    db.run(query.sortBy(_._3.desc).take(number).sortBy(_._2.desc).result).map(
       table => {
         table.map(
           row => MovieWithRating(row._1, genre, row._2, row._3)
         )
       }
     )
+
+  }
+
+
+  def isTypeCasted(name: String) = {
+
+    val query =
+      for {
+        (person, title) <- NameBasicsTables join  MovieBasicsTables on ((p, m) => m.tconst === p.knownForTitles.any)
+        if name.bind === person.primaryName
+      } yield (title.genres)
+
+
+    db.run(query.result).map(
+      table => {
+
+        val frequencies = table.flatten.groupBy(s => s).
+          map{ s => Frequency(s._1, s._2.length)}.
+          toList.
+          sortWith(_.frequency > _.frequency)
+
+        PersonWithGenres(
+          name,
+          table.length,
+          frequencies,
+          frequencies(0).frequency >= table.length / 2
+
+        )
+      }
+
+    )
+
   }
 
 }
@@ -79,7 +111,6 @@ class MyContext(db: Database) {
 object MyContext {
 
   import MyPostgresProfile.api._
-
 
   class NameBasicsTable(tag: Tag) extends Table[NameBasics](tag,  "name_basics") {
 
