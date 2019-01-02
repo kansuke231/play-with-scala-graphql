@@ -38,11 +38,9 @@ class MyContext(db: Database) {
 
     val query =
       for {
-        (movie, name) <- MovieBasicsTables join  NameBasicsTables on (_.tconst === _.knownForTitles.any)
+        ((_, movie), name) <- TitlePrincipalsTables join  MovieBasicsTables on (_.tconst === _.tconst) join NameBasicsTables on (_._1.nconst === _.nconst)
         if movie.primaryTitle === title || movie.originalTitle === title
       } yield (movie.primaryTitle, movie.genres, name.primaryName, name.primaryProfession)
-
-
 
     db.run(query.result).map(
       table => {
@@ -80,9 +78,9 @@ class MyContext(db: Database) {
 
     val query =
       for {
-        (person, title) <- NameBasicsTables join  MovieBasicsTables on ((p, m) => m.tconst === p.knownForTitles.any)
+        ((person, titlePrincipal), movie) <- NameBasicsTables join  TitlePrincipalsTables on ((n, tp) => n.nconst === tp.nconst) join MovieBasicsTables on (_._2.tconst === _.tconst)
         if name.bind === person.primaryName
-      } yield (title.genres)
+      } yield (movie.genres)
 
 
     db.run(query.result).map(
@@ -155,6 +153,20 @@ object MyContext {
   }
 
   val TitleRatingsTables = TableQuery[TitleRatingsTable]
+
+
+  class TitlePrincipalsTable(tag: Tag) extends Table[TitlePrincipals](tag, "title_principals") {
+
+    def tconst = column[String]("tconst")
+    def ordering = column[Int]("ordering")
+    def nconst = column[String]("nconst")
+    def category = column[String]("category")
+
+
+    def * = (tconst, ordering, nconst, category) <> ((TitlePrincipals.apply _).tupled, TitlePrincipals.unapply)
+  }
+
+  val TitlePrincipalsTables = TableQuery[TitlePrincipalsTable]
 
 
 

@@ -22,8 +22,14 @@ object Models {
                           endYear: Option[String],
                           runtimeMinutes: String,
                           genres: List[String], // array entry
-
                         )
+
+  case class TitlePrincipals(
+                              tconst: String,
+                              ordering: Int,
+                              nconst: String,
+                              category: String
+                            )
 
   case class Person(primaryName: String, primaryProfession: List[String])
 

@@ -87,8 +87,7 @@ object SchemaDef {
         description = Some("Returns information of the specified movie"),
         arguments = Argument("primaryTitle", StringType) :: Nil,
         resolve = c => c.ctx.titleBasics(c.arg[String]("primaryTitle"))
-      )
-      ,
+      ),
 
       Field("movieWithCastsAndCrews", OptionType(MovieInfoType),
         description = Some("Returns information of the specified movie"),

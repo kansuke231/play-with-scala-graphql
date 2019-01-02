@@ -31,10 +31,23 @@
 #    num_votes INTEGER
 #);
 
+#CREATE TABLE title_ratings(
+#    tconst VARCHAR PRIMARY KEY,
+#    average_rating DECIMAL,
+#    num_votes INTEGER
+#);
+
+#CREATE TABLE title_principals(
+#    tconst VARCHAR,
+#    ordering INTEGER,
+#    nconst VARCHAR,
+#    category VARCHAR
+#);
 
 
-base="base"
-file="imdb_data/title.ratings.tsv"
+
+base="basename"
+file="imdb_data/title.principals.modified.tsv"
 
 ### for name.basics.tsv
 # Skipping the header row
@@ -58,3 +71,9 @@ file="imdb_data/title.ratings.tsv"
 
 ### for title.ratings.tsv
 #psql -d imdb -h localhost -p 5432 -c "COPY title_ratings FROM '$base$file' DELIMITER E'\t';"
+
+### for title.principals.tsv
+# Skipping the header row
+#tail -n +2  imdb_data/title.principals.tsv | awk  -F $'\t'  '{print $1, $2, $3, $4}' OFS='\t' > imdb_data/title.principals.modified.tsv
+
+#psql -d imdb -h localhost -p 5432 -c "COPY title_principals FROM '$base$file' DELIMITER E'\t';"
