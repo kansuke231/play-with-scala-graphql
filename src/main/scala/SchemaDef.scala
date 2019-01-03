@@ -71,6 +71,14 @@ object SchemaDef {
       DocumentField("frequency", ""),
     )
 
+  implicit val SharedMoviesType: ObjectType[Unit, SharedMovies] =
+    deriveObjectType[Unit, SharedMovies](
+      ObjectTypeDescription(""),
+      DocumentField("person1", ""),
+      DocumentField("person2", ""),
+      DocumentField("sharedMovies", "")
+    )
+
 
 
   val QueryType = ObjectType(
@@ -105,6 +113,12 @@ object SchemaDef {
         description = Some(""),
         arguments = Argument("name", StringType) :: Nil,
         resolve = c => c.ctx.isTypeCasted(c.arg[String]("name"))
+      ),
+
+      Field("sharedMovies", SharedMoviesType,
+        description = Some(""),
+        arguments = Argument("person1", StringType) :: Argument("person2", StringType) :: Nil,
+        resolve = c => c.ctx.sharedMovies(c.arg[String]("person1"), c.arg[String]("person2"))
       )
     )
   )

@@ -78,7 +78,7 @@ class MyContext(db: Database) {
 
     val query =
       for {
-        ((person, titlePrincipal), movie) <- NameBasicsTables join  TitlePrincipalsTables on ((n, tp) => n.nconst === tp.nconst) join MovieBasicsTables on (_._2.tconst === _.tconst)
+        ((person, _), movie) <- NameBasicsTables join  TitlePrincipalsTables on ((n, tp) => n.nconst === tp.nconst) join MovieBasicsTables on (_._2.tconst === _.tconst)
         if name.bind === person.primaryName
       } yield (movie.genres)
 
@@ -103,6 +103,27 @@ class MyContext(db: Database) {
     )
 
   }
+
+  def sharedMovies(person1: String, person2: String) = {
+
+    val query =
+      for {
+        ((name, title_principal), movie) <- NameBasicsTables join  TitlePrincipalsTables on ((n, tp) => n.nconst === tp.nconst) join MovieBasicsTables on (_._2.tconst === _.tconst)
+        if person1.bind === name.primaryName ||  person2.bind === name.primaryName
+      } yield (name.primaryName, movie.primaryTitle)
+
+    db.run(query.result).map(
+      table => {
+        val tmp = table.groupBy(_._1)
+        val moviesP1 = tmp(person1).map(e => e._2)
+        val moviesP2 = tmp(person2).map(e => e._2)
+        SharedMovies(person1, person2, moviesP1.intersect(moviesP2).toList )
+      }
+    )
+
+  }
+
+
 
 }
 

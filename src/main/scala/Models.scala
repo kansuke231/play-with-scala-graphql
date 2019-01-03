@@ -55,6 +55,8 @@ object Models {
   case class PersonWithGenres(name: String, numberOfMovies: Int, frequencies: List[Frequency], isTypeCasted: Boolean)
 
   case class Frequency(genre: String, frequency: Int)
+
+  case class SharedMovies(person1: String, person2: String, sharedMovies: List[String])
 }
 
 
